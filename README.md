@@ -1,6 +1,8 @@
 # project
 
-A new Flutter project.
+Splash Screen (7).
+
+By Hassan Mahmoud
 
 ## Getting Started
 
