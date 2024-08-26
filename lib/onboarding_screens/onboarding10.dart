@@ -21,7 +21,7 @@ class Onboarding10 extends StatelessWidget {
               ),
             ),
             // const Spacer(),
-            Image.asset('assets/images/delivery.png'),
+            Image.asset('images/delivery.png'),
             // const Spacer(),
             Column(
               children: [
