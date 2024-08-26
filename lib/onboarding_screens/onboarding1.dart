@@ -8,7 +8,7 @@
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Center(
-                child: Image.asset('assets/images/Object.png',
+                child: Image.asset('images/Object.png',
                 scale: .8,
                 ),
               ),
