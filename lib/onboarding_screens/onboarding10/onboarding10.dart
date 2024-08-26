@@ -13,7 +13,7 @@ class OnboardingScreen extends StatelessWidget {
           children: [
             // Illustration
             Image.asset(
-              'images/delivery_illustration.jpg', 
+              'images/onboarding10/delivery_illustration.jpg',
               height: 250,
             ),
             const SizedBox(height: 40),
@@ -43,7 +43,8 @@ class OnboardingScreen extends StatelessWidget {
                 // Handle button press
               },
               style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 15),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 60, vertical: 15),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
