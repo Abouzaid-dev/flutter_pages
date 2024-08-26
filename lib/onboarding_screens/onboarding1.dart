@@ -1,5 +1,12 @@
 //onboarding screen 1
-       home: Scaffold(
+import 'package:flutter/material.dart';
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
         backgroundColor: const Color(0xff7265E2),
         body:Padding(
           padding: const EdgeInsets.fromLTRB(30, 110, 30, 50),
@@ -8,7 +15,7 @@
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Center(
-                child: Image.asset('images/Object.png',
+                child: Image.asset('images/onboarding1/Object.png',
                 scale: .8,
                 ),
               ),
@@ -26,7 +33,7 @@
               
               ),
               
-              SizedBox(
+              const SizedBox(
                 height:10 ,
               ),
               const Text("Transforming lives by offering hope and opportunities for recovery, wellness, and independence."
@@ -54,7 +61,7 @@
                               borderRadius: BorderRadius.circular(25),
                               color: Colors.white),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 5,
                         ),
                         Container(
@@ -64,7 +71,7 @@
                               borderRadius: BorderRadius.circular(25),
                               color: const Color.fromARGB(255, 202, 200, 200)),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 5,
                         ),
                         Container(
@@ -97,6 +104,9 @@
 
           ),
         )
-       ),
-
+       );
+    
+  }
+}
+     
       
