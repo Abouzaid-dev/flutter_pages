@@ -1,4 +1,4 @@
-
+//onboarding screen 1
        home: Scaffold(
         backgroundColor: const Color(0xff7265E2),
         body:Padding(
