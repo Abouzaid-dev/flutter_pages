@@ -1,4 +1,4 @@
-//onboarding screen 1
+//splash screen 17
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
