@@ -5,26 +5,23 @@ class SplashScreen7 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: SafeArea(
-        child: Scaffold(
-          body: Column(
-            children: [
-              Expanded(
-                flex: 2,
-                child: imageSplash("images/splashscreen7/main.png"),
+    return SafeArea(
+      child: Scaffold(
+        body: Column(
+          children: [
+            Expanded(
+              flex: 2,
+              child: imageSplash("images/splashscreen7/main.png"),
+            ),
+            Expanded(
+              flex: 2,
+              child: Container(
+                width: double.infinity,
+                decoration: splashDecoration(),
+                child: botBox(),
               ),
-              Expanded(
-                flex: 2,
-                child: Container(
-                  width: double.infinity,
-                  decoration: splashDecoration(),
-                  child: botBox(),
-                ),
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
@@ -36,7 +33,7 @@ class SplashScreen7 extends StatelessWidget {
       children: [
         mainBotText(
             "Lorem ipsum\ndolor sit amet,\nconsectetur\nadipiscing elit."),
-          loginBox(),
+        loginBox(),
         loginText(),
       ],
     );
@@ -100,25 +97,28 @@ class SplashScreen7 extends StatelessWidget {
       ],
     );
   }
-  
-Container loginBox() {
-  return Container(
-    decoration: BoxDecoration(
-      border: Border.all(color: const Color.fromARGB(255,48,72,96), width: 1), // Adds a black border around the container
-      borderRadius: BorderRadius.circular(10)
-    ),
-    child: const Padding(
-      padding: EdgeInsets.symmetric(horizontal: 125 , vertical: 7), // Add padding to ensure the text is not touching the border
-      child: Text(
-        "Login",
-        style: TextStyle(
-          fontSize: 35,
-          color: Color(0xFFF5F5F5),
-          fontFamily: 'Inria Serif',
+
+  Container loginBox() {
+    return Container(
+      decoration: BoxDecoration(
+          border: Border.all(
+              color: const Color.fromARGB(255, 48, 72, 96),
+              width: 1), // Adds a black border around the container
+          borderRadius: BorderRadius.circular(10)),
+      child: const Padding(
+        padding: EdgeInsets.symmetric(
+            horizontal: 125,
+            vertical:
+                7), // Add padding to ensure the text is not touching the border
+        child: Text(
+          "Login",
+          style: TextStyle(
+            fontSize: 35,
+            color: Color(0xFFF5F5F5),
+            fontFamily: 'Inria Serif',
+          ),
         ),
       ),
-    ),
-  );
-}
-
+    );
+  }
 }
