@@ -12,30 +12,30 @@ class Splash17 extends StatelessWidget {
           Positioned(
             top: 60,
             right: 30,
-            child: Image.asset('images/assets/Subtract.png'),
+            child: Image.asset('images/splash17/Subtract.png'),
           ),
           Positioned(
-              top: 100, left: 50, child: Image.asset('images/assets/Ellipse 6.png')),
+              top: 100, left: 50, child: Image.asset('images/splash17/Ellipse 6.png')),
           Positioned(
-              top: 260, left: 80, child: Image.asset('images/assets/Ellipse 9.png')),
+              top: 260, left: 80, child: Image.asset('images/splash17/Ellipse 9.png')),
           Positioned(
-              top: 60, left: 135, child: Image.asset('images/assets/Ellipse 7.png')),
+              top: 60, left: 135, child: Image.asset('images/splash17/Ellipse 7.png')),
           Positioned(
-              top: 90, left: 190, child: Image.asset('images/assets/Ellipse 21.png')),
+              top: 90, left: 190, child: Image.asset('images/splash17/Ellipse 21.png')),
           Positioned(
               top: 200,
               right: 150,
-              child: Image.asset('images/assets/Ellipse 22.png')),
+              child: Image.asset('images/splash17/Ellipse 22.png')),
           Positioned(
-              top: 190, left: 160, child: Image.asset('images/assets/Ellipse 23.png')),
+              top: 190, left: 160, child: Image.asset('images/splash17/Ellipse 23.png')),
           Positioned(
-              top: 225, right: 85, child: Image.asset('images/assets/Ellipse 24.png')),
+              top: 225, right: 85, child: Image.asset('images/splash17/Ellipse 24.png')),
           Positioned(
-              top: 150, left: 60, child: Image.asset('images/assets/Vector-1.png')),
+              top: 150, left: 60, child: Image.asset('images/splash17/Vector-1.png')),
           Positioned(
-              top: 190, left: 110, child: Image.asset('images/assets/Vector.png')),
+              top: 190, left: 110, child: Image.asset('images/splash17/Vector.png')),
           Positioned(
-              top: 370, right: 20, child: Image.asset('images/assets/Group 22.png')),
+              top: 370, right: 20, child: Image.asset('images/splash17/Group 22.png')),
           Column(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
