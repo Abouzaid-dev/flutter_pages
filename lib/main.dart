@@ -4,7 +4,11 @@ import 'package:project/splash_screens/splash_screen7.dart';
 import 'package:project/onboarding_screens/onboarding10.dart';
 
 import 'package:project/onboarding_screens/onboarding1.dart';
+
 import 'package:project/status_screens/status1.dart';
+
+import 'package:project/status_screens/status_2.dart';
+
 
 
 void main() {
@@ -18,7 +22,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
 
+
       home: Status1(),
+
+      home: Status2(),
+
     );
   }
 }
