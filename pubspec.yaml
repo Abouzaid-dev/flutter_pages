@@ -63,6 +63,8 @@ flutter:
     - images/splashscreen7/
     - images/onboarding10/
     - images/onboarding1/
+    - images/status1/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
