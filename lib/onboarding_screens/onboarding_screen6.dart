@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 
-
 class OnboardingScreen6 extends StatefulWidget {
   const OnboardingScreen6({super.key});
   @override
@@ -13,7 +12,6 @@ class _OnboardingScreen6State extends State<OnboardingScreen6> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
           backgroundColor: Colors.white,
           body: Center(
@@ -38,7 +36,7 @@ class _OnboardingScreen6State extends State<OnboardingScreen6> {
                         ),
                       ),
                       Image.asset(
-                        "images/guiter.png",
+                        "images/onboarding_screens/onboarding_6.png",
                       ),
                       Container(
                           alignment: Alignment.centerLeft,
@@ -111,6 +109,8 @@ class _OnboardingScreen6State extends State<OnboardingScreen6> {
     );
   }
 }
+
+@override
 Widget doits1() {
   return Container(
     margin: EdgeInsets.all(1),
@@ -123,6 +123,7 @@ Widget doits1() {
   );
 }
 
+@override
 Widget doits2() {
   return Container(
     margin: EdgeInsets.all(1),
@@ -135,4 +136,3 @@ Widget doits2() {
     ),
   );
 }
-
