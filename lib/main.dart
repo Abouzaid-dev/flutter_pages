@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'onboarding_screens/onboarding_screen6.dart';
 
 import 'package:project/onboarding_screens/onboarding_1.dart';
 
@@ -16,14 +17,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return const MaterialApp(
-      home: Onboarding1(
-        
-      ),
+      home: Onboarding1(),
     );
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: StatusScreen2(),
+      );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: OnboardingScreen6(),
       );
 }
 

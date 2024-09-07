@@ -60,10 +60,14 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+<<<<<<< HEAD
+    - images/onboarding6/
+=======
 
     - images/onboarding_1/
 
     - images/status2/
+>>>>>>> 367d425a96eae38dc6f3e1c27f11e651485890a6
   #   - images/a_dot_ham.jpeg
 
 
